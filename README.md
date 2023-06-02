@@ -122,7 +122,7 @@ With ```yarn dev```, you can see the resule like below:
 
 ### Install typescript
 ```
-`yarn add -D typescript`
+yarn add -D typescript
 ```
 ### Create tsconfig.json
 
