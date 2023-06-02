@@ -18,13 +18,13 @@ success Saved package.json
 ```
 
 
-### Install Vite
+##### Install Vite
 
 ```
 ❯ yarn add -D vite
 ```
 
-### Create HTML file
+##### Create HTML file
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -40,15 +40,16 @@ success Saved package.json
 </html>
 ```
 
-### main.js
+##### main.js
 ```
 document.querySelector('#app').innerHTML = `
   <div>
     hello
   </div>
+`
 ```
 
-### Create Package.json
+##### Create Package.json
 ```
 {
   ...
@@ -65,11 +66,11 @@ With ```yarn dev```, you can see hello like below:
 ```
 yarn add react react-dom
 ```
-### Install transpiler of React JSX
+##### Install transpiler of React JSX
 ```
 yarn add -D @vitejs/plugin-react
 ```
-### vite.config.js
+##### vite.config.js
 ```
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -78,7 +79,7 @@ export default defineConfig({
   plugins: [react()],
 })
 ```
-### Update main.js
+##### Update main.js
 
 Rename ```main.js``` to ```index.jsx```
 
@@ -94,13 +95,13 @@ ReactDOM.createRoot(document.getElementById('app')).render(
 )
 ```
 
-### Add App.jsx
+##### Add App.jsx
 ```
 export const App = () => (
     <h1>Hello React</h1>
 );
 ```
-### Change index.html a bit
+##### Change index.html a bit
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -120,11 +121,11 @@ With ```yarn dev```, you can see the resule like below:
 
 ## Add TypeScript
 
-### Install typescript
+##### Install typescript
 ```
 yarn add -D typescript
 ```
-### Create tsconfig.json
+##### Create tsconfig.json
 
 ```
 {
@@ -149,11 +150,11 @@ yarn add -D typescript
 }
 ```
 
-### Add type declaration of React app
+##### Add type declaration of React app
 ```
 yarn add -D @types/react @types/react-dom
 ```
-### Update jsx files
+##### Update jsx files
 
 Let's rename ```main.jsx``` to ```main.tsx``` and ```App.jsx``` to ```App.tsx```
 
@@ -195,7 +196,7 @@ index.html
 
 ## Add Type Checking
 
-### Add type check command in package.json
+##### Add type check command in package.json
 ```
 {
   ...,
