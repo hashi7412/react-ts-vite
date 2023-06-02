@@ -227,7 +227,8 @@ If you want to get a type error as soon as possible, you could add -w option. It
     "build": "yarn tscheck && vite build",
     "tscheck": "tsc"
   },
-}```
+}
+```
 
 ## Legacy Browser
 ```
