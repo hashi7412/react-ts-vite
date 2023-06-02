@@ -1,0 +1,14 @@
+{
+  "name": "react-ts-vite",
+  "version": "1.0.0",
+  "description": "react-ts-vite",
+  "main": "index.js",
+  "author": "gabriel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite ./src/"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
