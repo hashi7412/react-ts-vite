@@ -23,7 +23,7 @@ success Saved package.json
 #### Install Vite
 
 ```
-❯ yarn add -D vite
+  yarn add -D vite
 ```
 
 #### Create HTML file
